@@ -79,7 +79,7 @@ public class CriacaoDoCliente {
     }
     
     public void EscritaDosDados() throws IOException{
-        FileWriter arquivo = new FileWriter("C:\\Users\\coont\\Desktop\\Teste do programa\\Cliente.txt");
+        FileWriter arquivo = new FileWriter("");
         PrintWriter escreverArquivo = new PrintWriter(arquivo);
         
         escreverArquivo.printf(this.cpf);
